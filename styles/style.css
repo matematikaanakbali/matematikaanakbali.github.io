@@ -1,9 +1,8 @@
 /*Start Font*/
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 /*End Font*/
-
 /*Start Body*/
-body{
+body {
     background-color:wheat ;
     color:black ;
     font-family: 'Roboto Condensed', sans-serif;
@@ -15,11 +14,11 @@ body{
 /*End Body*/
 
 /*Start Debug*/
-.bg-grey {
-    background-color: grey;
+.bg-green {
+    background-color: green;
 }
 .bg-red {
-    background-color: yellowgreen;
+    background-color: red;
 }
 /*End Debug*/
 
@@ -47,10 +46,13 @@ body{
 a:link,
 a:visited {
     color: #036667;
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:hover,
-a:active {}
+a:active {
+    color: #000000;
+    text-decoration: underline;
+}
 /*End Anchor / Hyperlink*/
 
 /*Start Menu Primer*/
@@ -155,13 +157,13 @@ h6 {
     width: 70%;
 }
 /*End Main*/
+
+/*Start Sidebar*/
 .sidebar-two {
     float: right;
     overflow:auto;
     width: 29%;
 }
-/*Start Sidebar*/
-
 /*End Sidebar*/
 
 /*Start Box*/
@@ -177,7 +179,6 @@ h6 {
     font-size: 14px;
     margin: 0;
 }
-
 .box-isi {
     background-color: #ffffff;
     border: 1px solid #eaecef;
@@ -208,8 +209,6 @@ h6 {
 .layanan-table td {
     text-align: center;
 }
-
-
 /*End Layanan Table*/
 
 /*Start Form*/
