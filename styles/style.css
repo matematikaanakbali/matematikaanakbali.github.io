@@ -267,12 +267,10 @@ input [type="submit"],
 .menu-sekunder li {
     list-style: disc;    
 }
-
 .menu-sekunderli a,
 .menu-sekunderli p {
     font-size: 15px;
 }
-
 .menu-sekunder-one,
 .menu-sekunder-two,
 .menu-sekunder-three {
@@ -287,6 +285,7 @@ input [type="submit"],
 }
 .menu-sekunder li img {
     vertical-align: middle;
+    margin: 10px;
 }
 /*End Menu Sekunder*/
 
